@@ -1,0 +1,12 @@
+{
+	"python_interpreter": "C:\\Windows\\py.exe",
+	"auto_python_builder_enabled": true,
+    "pep8_ignore":
+    [
+    	"E501"
+    ],
+    "autoformat_ignore":
+    [
+    	"E501"
+    ],
+}
