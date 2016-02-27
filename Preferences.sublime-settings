@@ -1,9 +1,25 @@
 {
-	"color_scheme": "Packages/Color Scheme - Default/Monokai.tmTheme",
-	"font_size": 19,
+	"always_show_minimap_viewport": true,
+	"bold_folder_labels": true,
+	"color_scheme": "Packages/Material Theme/schemes/Material-Theme-Darker.tmTheme",
+	// "color_scheme": "Packages/Material Theme/schemes/OLD/Material-Theme-Darker.tmTheme",
+	"font_size": 16,
 	"ignored_packages":
 	[
+		"Markdown",
 		"Vintage"
 	],
-	"original_color_scheme": "Packages/Color Scheme - Default/Monokai.tmTheme"
+	"indent_guide_options":
+	[
+		"draw_normal",
+		"draw_active"
+	],
+	"material_theme_accent_indigo": true,
+	"material_theme_panel_separator": true,
+	"material_theme_small_statusbar": true,
+	"material_theme_small_tab": true,
+	"material_theme_tree_headings": false,
+	// "original_color_scheme": "Packages/Color Scheme - Default/Monokai.tmTheme",
+	"overlay_scroll_bars": "enabled",
+	"theme": "Material-Theme-Darker.sublime-theme"
 }
