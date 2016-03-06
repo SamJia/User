@@ -1,0 +1,48 @@
+<snippet>
+	<content><![CDATA[
+\documentclass{article} 
+\usepackage{abstract}
+\usepackage{graphicx}  
+\usepackage{CJKutf8}
+\usepackage{latexsym}
+\usepackage{listings}
+\lstset{breaklines}
+\lstset{extendedchars=false}
+\usepackage{xcolor}
+\pagestyle{plain}
+
+\begin{document}   
+%主标题
+\title{\textbf{Title}} 
+\author{Author}
+\date{Date} 
+\maketitle
+
+%加入摘要 %
+\hrulefill 
+\begin{onecolabstract}
+Abstract
+\end{onecolabstract}
+\hrulefill
+
+%第一大点%
+\section{Section1}
+
+%第二大点%
+\section{Section2}
+\subsection{Subsection}
+\begin{lstlisting}[language={[ANSI]C},numbers=left, numberstyle=\tiny,keywordstyle=\color{blue!70}, tabsize=4, commentstyle=\color{red!50!green!50!blue!50},frame=shadowbox, rulesepcolor=\color{red!20!green!20!blue!20}] 
+code
+\end{lstlisting}
+
+%第三大点%
+\section{Section3}
+% \includegraphics[width=4in,height=6.0in]{graphics}
+
+\end{document}  
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>latex</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.tex.latex</scope>
+</snippet>

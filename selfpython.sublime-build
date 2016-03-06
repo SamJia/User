@@ -1,0 +1,26 @@
+{
+ "cmd":["python.exe", "-u", "$file"],
+ "file_regex": "^[ ]*File \"(...*?)\", line ([0-9]*)",
+ "selector": "source.python",
+ "encoding": "utf-8",
+
+ "variants":
+	[
+		{
+			"name": "PythonRun",
+            "cmd": ["cmd", "/c","start", "cmd", "/c", "python ${file} & pause"]
+		},
+		{
+			"name": "PypyRun",
+            "cmd": ["cmd", "/c","start", "cmd", "/c", "pypy ${file} & pause"]
+		},
+		{
+			"name": "PyRun",
+            "cmd": ["cmd", "/c","start", "cmd", "/c", "py ${file} & pause"]
+		},
+		{
+			"name": "SublimePyRun",
+            "cmd": ["cmd", "/c", "py ${file} & pause"]
+		}
+	]
+}

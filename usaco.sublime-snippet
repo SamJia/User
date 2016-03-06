@@ -1,0 +1,24 @@
+<snippet>
+	<content><![CDATA[
+/*
+ID: sammail1
+PROG: ${1:name}
+LANG: C++
+*/
+#include <cstdio>
+#define SIZE ${2:size}
+#define MAX(x,y) ({typeof(x) x_ = (x); typeof(y) y_ = (y); x_ > y_ ? x_ : y_;})
+#define MIN(x,y) ({typeof(x) x_ = (x); typeof(y) y_ = (y); x_ < y_ ? x_ : y_;})
+#define ABS(x) ({typeof(x) x_ = (x); x_ > 0 ? x_ : -x_;})
+
+
+int main(){
+	// freopen("${1:name}.in", "r", stdin);
+	// freopen("${1:name}.out", "w", stdout);
+
+	return 0;
+}
+]]></content>
+    <tabTrigger>USACO</tabTrigger>
+    <scope>source.c++</scope>
+</snippet>

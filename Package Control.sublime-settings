@@ -1,0 +1,21 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"Alignment",
+		"Anaconda",
+		"BracketHighlighter",
+		"ConvertToUTF8",
+		"JsFormat",
+		"LaTeXTools",
+		"MarkdownLight",
+		"Material Theme",
+		"OmniMarkupPreviewer",
+		"Package Control",
+		"SideBarEnhancements",
+		"SublimeAStyleFormatter"
+	]
+}
