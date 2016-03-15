@@ -7,20 +7,20 @@
  "variants":
 	[
 		{
-			"name": "PythonRun",
-            "cmd": ["cmd", "/c","start", "cmd", "/c", "python ${file} & pause"]
-		},
-		{
-			"name": "PypyRun",
-            "cmd": ["cmd", "/c","start", "cmd", "/c", "pypy ${file} & pause"]
-		},
-		{
-			"name": "PyRun",
+			"name": "Py2Run",
             "cmd": ["cmd", "/c","start", "cmd", "/c", "py ${file} & pause"]
 		},
 		{
-			"name": "SublimePyRun",
+			"name": "Py3Run",
+            "cmd": ["cmd", "/c","start", "cmd", "/c", "py -3 ${file} & pause"]
+		},
+		{
+			"name": "SublimePy2Run",
             "cmd": ["cmd", "/c", "py ${file} & pause"]
+		},
+		{
+			"name": "SublimePy3Run",
+            "cmd": ["cmd", "/c", "py -3 ${file} & pause"]
 		}
 	]
 }
