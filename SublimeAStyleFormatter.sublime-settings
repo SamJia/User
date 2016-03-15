@@ -1,0 +1,7 @@
+{
+	"options_default": {
+		"style": "google",
+		"indent": "tab",
+        "indent-spaces": 4,	
+	},
+}
