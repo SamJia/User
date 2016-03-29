@@ -16,7 +16,7 @@
 		},
 		{
 			"name": "BuildAndRun11",
-			"cmd": ["cmd", "/c", "g++", "-std=c++11", /*"-static",*/ "-mavx2", "-O2", /*"-pg",*/ "${file}", "-o", "${file_path}/${file_base_name}", "&&", "start", "cmd", "/c", "${file_path}/${file_base_name} & pause"]
+			"cmd": ["cmd", "/c", "g++", "-std=c++11", /*"-static",*/ /*"-mavx2",*/ "-msse4", "-O2", /*"-pg",*/ "${file}", "-o", "${file_path}/${file_base_name}", "&&", "start", "cmd", "/c", "${file_path}/${file_base_name} & pause"]
 		},
 		{
 			"name": "C",
